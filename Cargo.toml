@@ -1,0 +1,12 @@
+[package]
+name = "rdesk"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+tokio = { version = "1.20.1", features = ["rt", "net", "macros"] }
+btleplug = "0.9.1"
+indicatif = "0.16.2"
+thiserror = "1.0.30"
+tokio-stream = "0.1.8"
+uuid = "0.8.2"
